@@ -2,7 +2,19 @@
 function Header() {
   return (
     <header className="header">
-      <h1>Amazon Product Store</h1>
+      <div className="header-inner">
+        <a href="#" className="amazon-logo">
+          <span className="logo-icon">a</span>
+          <span className="logo-text">
+            Amazon<span className="logo-subtitle">Product Store</span>
+          </span>
+        </a>
+
+        <span className="header-label">
+          <span className="header-dot" />
+          DAY 3 REACT ACTIVITY
+        </span>
+      </div>
     </header>
   );
 }
